@@ -7,5 +7,6 @@ public class UserInputExp {
         System.out.println("Enter Username: ");
         Username=myObj.nextLine();
         System.out.println("Your username is ".concat(Username));
+        myObj.close();
     }
 }
