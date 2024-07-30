@@ -51,7 +51,7 @@ public class BasicCalc {
                     break;
                 }
             }
+            inpObj.close();
         }
-        inpObj.close();
     }
 }
